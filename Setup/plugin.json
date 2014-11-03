@@ -1,7 +1,16 @@
 {
     "title": "Using jQuery 1.x",
-    "version": "1.00",
+    "version": "1.01",
     "name": "Jquery1x",
-    "description": "ImpressPages adds jQuery 2.x by default. You can't change that in admin mode as the management won't work. But you can remove it or replace with an older version for your public visitors if you like.",
-    "author": "PixelTurk"
+    "description": "ImpressPages adds jQuery 2.x by default. You can't change that in admin mode as the management won't work. But you can remove it or replace with an older version for your public visitors if you like with Internet Explorer options",
+    "author": "PixelTurk",
+    "options": [
+        {
+            "label": "Only Internet Explorer",
+            "name": "ieOnly",
+            "type": "select",
+            "default": "Yes",
+            "values": ["Yes", "No", "UnderIE9"]
+        }
+    ]
 }
